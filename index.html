@@ -5,10 +5,17 @@
         <title>JavaScript Task Master</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.typekit.net/wth3vup.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body onload="fetchIssues()">
+        <nav class="navbar navbar-default navbar-fixed-top" id="navBar">
+            <div class="container" id="navBar">
+                <h3>JavaScript TaskMaster <small>by Brenden Mason</small></h3>
+            </div>
+          </nav>
         <div class="container">
-            <h1>JavaScript TaskMaster <small>by Brenden Mason</small></h1>
+            <h1 id="invisible">This is helping my padding therefore she stays</h1>
             <div class="jumbotron">
                 <h3>Add New Task:</h3>
                 <form id="issueInputForm">
@@ -36,7 +43,8 @@
                 </div>
             </div>
             <div class="footer">
-                <p>&copy by Brenden Mason</p>
+                <a href="#" class="bottomLink">Back To Top</a>
+                <p id="footer">&copy by Brenden Mason</p>
             </div>
         </div>
         <script src="http://chancejs.com/chance.min.js"></script>

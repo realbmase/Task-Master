@@ -1,0 +1,17 @@
+body {
+    background-color: #4A4A4A;
+    padding-top: 70px;
+}
+
+#navBar {
+    justify-content: center;
+    background-color: #e8e8e8;
+}
+
+#invisible {
+    visibility: hidden;
+}
+
+#footer {
+    color: white;
+}
