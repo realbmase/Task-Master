@@ -18,3 +18,8 @@ body {
 .bottomLink {
     text-decoration: none;
 }
+
+.copy {
+    padding-top: 0.5rem;
+    color: white;
+}
