@@ -1,6 +1,5 @@
 body {
     background-color: #4A4A4A;
-    padding-top: 70px;
 }
 
 #navBar {
@@ -14,4 +13,8 @@ body {
 
 #footer {
     color: white;
+}
+
+.bottomLink {
+    text-decoration: none;
 }
